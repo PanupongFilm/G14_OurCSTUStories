@@ -1,0 +1,31 @@
+.future_nav {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    margin: 20px auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.mynav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.mynav-links a {
+    text-decoration: none;
+    color: #6b2372;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
