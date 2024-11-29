@@ -40,3 +40,8 @@ body {
     padding: 8px 15px;
     border-radius: 10px;
 }
+
+.bookstack-img {
+    max-width: 150px;
+    margin-top: 20px;
+}
