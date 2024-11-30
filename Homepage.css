@@ -87,18 +87,28 @@
 
 
 .about-content{
+    
     width: 80%;
     margin: 100px auto;
+
 }
+
 
 .row {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    gap: 20px;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+    width: 100%; 
+}
 
-
+.col {
+    flex-basis: 45%; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
 }
 
 .row .col {
@@ -112,17 +122,53 @@
 
 }
 
-.row .col img {
-
+.gif_img{
     max-width: 100%;
     border-radius: 3%;
     height: auto;
     margin-bottom: 10px;
+}
+
+.Title {
+    margin-top: 165px;
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(222, 147, 252);
+}
+
+
+.Container {
+
+    margin-top: 90px;
+    border-radius:250px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 60vh; 
+    padding: 20px;
+}
+
+article img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ครอบภาพให้เต็มพื้นที่โดยรักษาสัดส่วน */
+
+}
+
+.Member_img {
+    
+    width: 45vh; 
+    height: 45vh;
+    border-radius: 50%; 
+    object-fit: cover; 
 
 }
 
 
 .about-content h4 {
+
     font-size: 3vmin;
     color: #91449b;
     margin: 6px auto;
@@ -141,178 +187,87 @@
     overflow-wrap: break-word;
     margin-top: 10px;
     line-height: 1.5;
-
 }
 
 main{
     background-color: #f0e0f0;
 }
 
-article{
+.Container h1{
+    font-size: 3.65vmin;
+    color: #91449b;
+    margin: 6px auto;
     font-family: sans-serif;
-    padding: 10%;
 }
 
-section{
+
+.Container p{
+
+    color: #816280;
+    padding: 5px 5px;
+    font-size: 3vmin;
     font-family: sans-serif;
-    padding: 10%;
+    text-align: center;
+    overflow-wrap: break-word;
+    margin-top: 10px;
+    line-height: 1.5;
+
 }
 
-section form{
-    margin: 0;
-    border-radius: 20px;
-    background-color:#de83b4;
-    box-shadow: 0px 5px 5px rgb(218, 168, 192);
-}
 
-section form fieldset{
-    padding: 5%;
-    border-radius: 20px;
-    border-color: rgb(212, 144, 227) #d16e9c rgb(139, 63, 146);
-    background-color: #ffeefd;
-    border-style: dashed; 
-    color:#c44e8f;
-}
+.card1 {
 
-section form fieldset legend{
-    background-color: #de83b4;
-    padding: 10px;
-    border-radius: 20px;
-    color:#ffeefd;
-    border-bottom: #ffeefd;
-    border-style: solid;
-    border-top: none;
-}
-
-#name{
-    color: #de83b4;
-    border-radius: 10px;
-    border-color: #c44e8f;
-    border-style: hidden;
-    padding: 5px;
-}
-
-#name::placeholder{
-    color:#e2bfd2;
-}
-
-#email{
-    color: #de83b4;
-    border-radius: 10px;
-    border-color: #c44e8f;
-    border-style: hidden;
-    padding: 5px;
-}
-
-#email::placeholder{
-    color:#e2bfd2;
-}
-
-.RateUs {
-    display: inline-flex;
-    cursor: pointer;
-    position: relative;
-}
-
-.rating {
-    font-size: 24px;
-    transition: color 0.3s ease, transform 0.2s ease;
-    color: #c44e8f;
-}
-
-.rating:hover{
-    transform: scale(1.2);
-}
-
-.rating::after, .rating:hover ~ .rating{
-   content: ❀;
-    color: #ccc; 
-}
-
-/*for js: Rate us!*/
-.one {
-    color: #c44e8f;
-}
-    
-.two {
-    color: #c44e8f;
-}
-    
-.three {
-    color: #c44e8f;
-}
-    
-.four {
-    color: #c44e8f;
-}
-    
-.five {
-    color: #c44e8f;
-}
-
-#comment{
-    color: #de83b4;
-    border-radius: 10px;
-    border-color: #c44e8f;
-    border-style: hidden;
-    padding: 5px;
-}
-
-#comment::placeholder{
-    color:#e2bfd2;
-}
-
-#summit{
-    background-color:#de83b4;
-    border-style: hidden;
-    border-radius: 10px;
-    padding: 5px;
-    color: #ffeefd;
-}
-
-#summit:hover{
-    cursor: pointer;
-}
-
-#summit:focus{
-    background-color: #ffeefd;
-    color: #de83b4;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #de83b4;
-}
-
-.card {
-    width: 300px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
+    width: 500px;
+    height: 430px;
+    border: px solid #ccc;
+    border-radius: 100px;
     margin: 10px;
     display: flex;
     flex-direction: column;
     padding: 10px;
+    display:flex;
+    justify-content: center;
     text-align: center;
-    background-color: #f9f9f9;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fafafa;
+    box-shadow: 10px 7px 6px rgba(0, 0, 0, 0.1);
+
 }
-.card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
+
+.myicon{
+margin: 30px;
+display: flex;
+justify-content: space-around;
+align-items: center
+
 }
-.card span {
-    display: block;
-    margin-bottom: 5px;
+
+.icon_img {
+    
+    width: 7vh; 
+    height: 7vh;
+   
+   
 }
-.card a {
-    color: #007BFF;
-    text-decoration: none;
+
+.icon_img2 {
+    
+    width: 10vh; 
+    height: 10vh;
+ 
+   
 }
-.card a:hover {
-    text-decoration: underline;
+
+.line1{
+    margin: 30px;
+    border: none;
+    border-top: 0.6vmin dashed #bc90f0;
+    height: 0;
+    margin: 20px 0;
 }
-.details {
-    margin-top: 10px;
-    font-size: 0.9em;
-    color: #555;
-}
+
+
+
+
+
+
+
