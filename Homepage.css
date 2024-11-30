@@ -281,3 +281,171 @@ section form fieldset legend{
     border-style: solid;
     border-color: #de83b4;
 }
+
+.card1 {
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.card1 span {
+    display: block;
+    margin-bottom: 5px;
+}
+.card1 a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.card1 a:hover {
+    text-decoration: underline;
+}
+.details {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+.card2 {
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.card2 span {
+    display: block;
+    margin-bottom: 5px;
+}
+.card2 a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.card2 a:hover {
+    text-decoration: underline;
+}
+.card3 {
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.card3 span {
+    display: block;
+    margin-bottom: 5px;
+}
+.card3 a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.card3 a:hover {
+    text-decoration: underline;
+}
+.card4 {
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.card4 span {
+    display: block;
+    margin-bottom: 5px;
+}
+.card4 a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.card4 a:hover {
+    text-decoration: underline;
+}
+.card5 {
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card5 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.card5 span {
+    display: block;
+    margin-bottom: 5px;
+}
+.card5 a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.card5 a:hover {
+    text-decoration: underline;
+}
+.card6 {
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card6 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.card6 span {
+    display: block;
+    margin-bottom: 5px;
+}
+.card6 a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.card6 a:hover {
+    text-decoration: underline;
+}
