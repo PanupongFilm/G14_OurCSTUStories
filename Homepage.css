@@ -265,7 +265,148 @@ align-items: center
     margin: 20px 0;
 }
 
+/*=========================================================================================================*/
+/*ARTICLE and SECTION(GuestBook): please don't delete all of them.*/
+article{
+    font-family: sans-serif;
+    padding: 10%;
+}
+section{
+    font-family: sans-serif;
+    padding: 10%;
+}
+section form{
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    background-color:#de83b4;
+    box-shadow: 0px 5px 5px rgb(218, 168, 192);
+}
+section form fieldset{
+    padding: 5%;
+    border-radius: 20px;
+    border-color: rgb(212, 144, 227) #d16e9c rgb(139, 63, 146);
+    background-color: #ffeefd;
+    border-style: dashed; 
+    color:#c44e8f;
+    background-image: url('resource/Homepage/BgForGuestBook.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section form fieldset legend{
+    background-color: #de83b4;
+    padding: 10px;
+    border-radius: 20px;
+    color:#ffeefd;
+    border-bottom: #ffeefd;
+    border-style: solid;
+    border-top: none;
+}
+#name{
+    color: #de83b4;
+    border-radius: 10px;
+    border-color: #c44e8f;
+    border-style: hidden;
+    padding: 5px;
+    width: 100%;
+    max-width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+#name::placeholder{
+    color:#e2bfd2;
+}
+#email{
+    color: #de83b4;
+    border-radius: 10px;
+    border-color: #c44e8f;
+    border-style: hidden;
+    padding: 5px;
+    width: 100%;
+    max-width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+#email::placeholder{
+    color:#e2bfd2;
+}
+.RateUs {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.rating {
+    font-size: 25px;
+    transition: color 0.3s ease, transform 0.2s ease;
+    color: #c44e8f;
+}
+.rating:hover{
+    transform: scale(1.2);
+}
+.rating::after, .rating:hover ~ .rating{
+   content: ❀;
+    color: #ccc; 
+}
+/*for js: Rate us!*/
+.one {
+    color: #c44e8f;
+}
+    
+.two {
+    color: #c44e8f;
+}
+    
+.three {
+    color: #c44e8f;
+}
+    
+.four {
+    color: #c44e8f;
+}
+    
+.five {
+    color: #c44e8f;
+}
 
+#emoji{
+    padding: 5px;
+}
+
+#comment{
+    color: #de83b4;
+    border-radius: 10px;
+    border-color: #c44e8f;
+    border-style: hidden;
+    padding: 5px;
+    width: 100%;
+    max-width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+#comment::placeholder{
+    color:#e2bfd2;
+}
+#summit{
+    background-color:#de83b4;
+    border-style: hidden;
+    border-radius: 10px;
+    padding: 5px;
+    color: #ffeefd;
+    font-size: 15px;
+}
+#summit:hover{
+    cursor: pointer;
+}
+#summit:focus{
+    background-color: #ffeefd;
+    color: #de83b4;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #de83b4;
+}
+/*=========================================================================================================*/
 
 
 
