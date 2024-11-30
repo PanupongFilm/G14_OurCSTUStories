@@ -1,15 +1,4 @@
-.Journey_nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    font-size: 2.6vh;
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    color: rgb(248, 248, 250);
-    font-weight: bold;
-}
+
 .logo-img {
     position: absolute;
     left: 30px; 
@@ -19,38 +8,6 @@
     width: 120px;
     height: 120px;
    
-}
-.mynav-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%; 
-}
-
-.mynav-links a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  align-items: center;
-  margin: 0 34px auto;
-}
-
-
-.Journey_nav {
-    
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  font-size: 2.6vh;
-  display: flex;
-  justify-content: center;
-  padding: 30px;
-  color: rgb(248, 248, 250);
-  font-weight: bold;
-  overflow-y: hidden;
-  background-image: url("resource/Homepage/Test.jpg");
-    background-position: bottom;
-    background-size: cover;
 }
 h1 {
   font-size: 2rem;
@@ -163,7 +120,7 @@ blockquote {
 }
 
 
-
+ 
 
 
 
@@ -188,41 +145,13 @@ blockquote {
 
 
 .home_nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  font-size: 2.6vh;
-  display: flex;
-  justify-content: center;
-  padding: 0px;
-  color: rgb(248, 248, 250);
-  font-weight: bold;
-  overflow-y: hidden;
   background-image: url("resource/Homepage/Test.jpg");
-    background-position: bottom;
-    background-size: cover;
-}
-
-.mynav-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%; 
-  padding: 0px;
-  
-  
-}
-
-.mynav-links a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  align-items: center;
-  margin: 0 34px auto;
+  background-position: bottom;
+  background-size: cover;
 }
 
 li {
-  list-style-type: none;  /* ลบจุดที่หน้า list item */
+  list-style-type: none; 
 }
 
 ul{
@@ -265,7 +194,6 @@ ul{
   border-left: 10px solid #f68f78;
 }
 
-
 .home_nav {
   position: absolute;
   top: 0;
@@ -273,14 +201,24 @@ ul{
   width: 100%;
   font-size: 2.6vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 30px;
   color: rgb(248, 248, 250);
   font-weight: bold;
   overflow-y: hidden;
-  
 }
 
+.mynav-links {
+  display: flex;
+  margin-right: 30px; 
+}
+
+.mynav-links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  align-items: flex-end;
+  margin: 34px 34px auto;
+}
 .logo-img {
   position: absolute;
   left: 30px; 
@@ -288,27 +226,9 @@ ul{
   transform: translateY(-50%); 
   height: 40px; 
   width: 120px;
-  height: 120px;
-  
+  height: 120px; 
  
 }
-
-.mynav-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%; 
-  
-  
-}
-
-.mynav-links a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  align-items: center;
-  margin: 0 34px auto;
-}
-
 
 .about-content{
   
