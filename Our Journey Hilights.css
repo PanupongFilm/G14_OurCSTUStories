@@ -1,4 +1,12 @@
+* {
 
+
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+ 
+}
 .logo-img {
     position: absolute;
     left: 30px; 
@@ -346,3 +354,41 @@ main{
 }
 
 
+.footer1 {
+
+  background-image: url("resource/Homepage/BACKGROUND.jpg");
+  padding: 20px;
+}
+
+
+.myfooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content {
+  flex: 1;
+  margin-right: 0px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.footer-content h4 {
+  margin-bottom: 20px;
+  font-size: 3vmin;
+
+}
+
+.footer-content ul li {
+  margin-bottom: 20px;
+ 
+}
+
+.footerhead {
+  color: rgb(255, 255, 255);  
+}
+
+.footerlink {
+  margin: 15px;
+  color: rgb(255, 255, 255);
+}
