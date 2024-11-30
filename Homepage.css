@@ -147,6 +147,141 @@
 main{
     background-color: #f0e0f0;
 }
+
+article{
+    font-family: sans-serif;
+    padding: 10%;
+}
+
+section{
+    font-family: sans-serif;
+    padding: 10%;
+}
+
+section form{
+    margin: 0;
+    border-radius: 20px;
+    background-color:#de83b4;
+    box-shadow: 0px 5px 5px rgb(218, 168, 192);
+}
+
+section form fieldset{
+    padding: 5%;
+    border-radius: 20px;
+    border-color: rgb(212, 144, 227) #d16e9c rgb(139, 63, 146);
+    background-color: #ffeefd;
+    border-style: dashed; 
+    color:#c44e8f;
+}
+
+section form fieldset legend{
+    background-color: #de83b4;
+    padding: 10px;
+    border-radius: 20px;
+    color:#ffeefd;
+    border-bottom: #ffeefd;
+    border-style: solid;
+    border-top: none;
+}
+
+#name{
+    color: #de83b4;
+    border-radius: 10px;
+    border-color: #c44e8f;
+    border-style: hidden;
+    padding: 5px;
+}
+
+#name::placeholder{
+    color:#e2bfd2;
+}
+
+#email{
+    color: #de83b4;
+    border-radius: 10px;
+    border-color: #c44e8f;
+    border-style: hidden;
+    padding: 5px;
+}
+
+#email::placeholder{
+    color:#e2bfd2;
+}
+
+.RateUs {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.rating {
+    font-size: 24px;
+    transition: color 0.3s ease, transform 0.2s ease;
+    color: #c44e8f;
+}
+
+.rating:hover{
+    transform: scale(1.2);
+}
+
+.rating::after, .rating:hover ~ .rating{
+   content: ❀;
+    color: #ccc; 
+}
+
+/*for js: Rate us!*/
+.one {
+    color: #c44e8f;
+}
+    
+.two {
+    color: #c44e8f;
+}
+    
+.three {
+    color: #c44e8f;
+}
+    
+.four {
+    color: #c44e8f;
+}
+    
+.five {
+    color: #c44e8f;
+}
+
+#comment{
+    color: #de83b4;
+    border-radius: 10px;
+    border-color: #c44e8f;
+    border-style: hidden;
+    padding: 5px;
+}
+
+#comment::placeholder{
+    color:#e2bfd2;
+}
+
+#summit{
+    background-color:#de83b4;
+    border-style: hidden;
+    border-radius: 10px;
+    padding: 5px;
+    color: #ffeefd;
+}
+
+#summit:hover{
+    cursor: pointer;
+}
+
+#summit:focus{
+    background-color: #ffeefd;
+    color: #de83b4;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #de83b4;
+}
+
 .card1 {
     width: 300px;
     border: 2px solid #ccc;
