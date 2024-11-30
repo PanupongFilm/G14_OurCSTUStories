@@ -287,6 +287,10 @@ section form fieldset{
     background-color: #ffeefd;
     border-style: dashed; 
     color:#c44e8f;
+    background-image: url('resource/Homepage/BgForGuestBook.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 section form fieldset legend{
     background-color: #de83b4;
@@ -329,9 +333,10 @@ section form fieldset legend{
     display: inline-flex;
     cursor: pointer;
     position: relative;
+    overflow: hidden;
 }
 .rating {
-    font-size: 24px;
+    font-size: 25px;
     transition: color 0.3s ease, transform 0.2s ease;
     color: #c44e8f;
 }
@@ -362,6 +367,11 @@ section form fieldset legend{
 .five {
     color: #c44e8f;
 }
+
+#emoji{
+    padding: 5px;
+}
+
 #comment{
     color: #de83b4;
     border-radius: 10px;

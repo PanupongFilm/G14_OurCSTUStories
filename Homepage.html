@@ -326,13 +326,12 @@
                         <h2>Guest Book</h2>
                     </legend>
                     <label>Username</label><br>
-                    <input type="text" maxlength="100" name="name" id="name" placeholder="MysteriousFox"><br>
+                    <input type="text" maxlength="100" name="name" id="name" placeholder="Mysterious Fox" required><br>
                     <br>
                     <label>Email</label><br>
-                    <input type="email" maxlength="50" name="email" id="email" placeholder="kitsune@gmail.com"><br>
+                    <input type="email" maxlength="50" name="email" id="email" placeholder="kitsune@gmail.com" required><br>
                     <br>
                     <label>Rate us!</label><br>
-                    <!--This will use html, css, js. Not for now then-->
                     <div class="RateUs">
                         <span onclick="rate(1)"class="rating" name="rating">❀    
                         </span>
@@ -343,9 +342,9 @@
                         <span onclick="rate(4)"class="rating" name="rating">❀   
                         </span>
                         <span onclick="rate(5)"class="rating" name="rating">❀    
-                        </span>
-                        <span class="emoji" id="emoji">(´⌯ω⌯`)</span>
+                        </span>    
                     </div>
+                    <span class="emoji" id="emoji">(´⌯ω⌯`)</span>
                     <br><br>
                     <label>Comment</label><br>
                     <textarea name="comment" id="comment" placeholder="Tell something about us!"></textarea><br>
