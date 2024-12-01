@@ -1,5 +1,4 @@
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,8 +6,6 @@
     overflow-x: hidden;
     text-decoration: none;
    
-
-
 }
 
 .home_header {
@@ -58,7 +55,7 @@
     height: 180px;
 }
 nav{
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1) ; /* i add*/
+  
     position: absolute;
     top: 0;
     left: 0;
