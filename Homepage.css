@@ -65,7 +65,7 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
-    font-size: 2.6vh;
+    font-size: 25px;;
     display: flex;
     justify-content: flex-end;
     padding: 30px;
@@ -114,7 +114,7 @@ nav :first-child{
     height: 100vh;
     width:250px;
     z-index:999;
-    background-color:rgba(255, 255, 255, 0.19);
+    background-color:#81628046;
     backdrop-filter: blur(10px) ;
     box-shadow: -10px 0px 10px rgba(0,0,0,0.1);
     display: none;
