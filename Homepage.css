@@ -59,7 +59,8 @@
     height: 120px;
     margin-right: auto;
 }
-.home_nav {
+nav{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1) ; /* i add*/
     position: absolute;
     top: 0;
     left: 0;
@@ -71,18 +72,29 @@
     color: rgb(248, 248, 250);
     font-weight: bold;
     overflow-y: hidden;
+    
 }
 
-.mynav-links {
-    display: flex;
-    margin-right: 30px; 
+nav ul{
+    width: 100%;
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.mynav-links a {
+nav li{
+    height: 50px;
+    margin-right: 30px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    align-items: flex-end;
-    margin: 34px 34px auto;
+    display: flex;
+    align-items: center;
+    color: white;
 }
 
 
