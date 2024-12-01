@@ -54,10 +54,8 @@
     left: 30px; 
     top: 50%;
     transform: translateY(-50%); 
-    height: 40px; 
-    width: 120px;
-    height: 120px;
-    margin-right: auto;
+    width: 180px;
+    height: 180px;
 }
 nav{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1) ; /* i add*/
