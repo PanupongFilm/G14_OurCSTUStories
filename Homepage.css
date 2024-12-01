@@ -20,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between; 
+    min-height: 100vh;
 }
 
 .header-Topic2 {
@@ -56,8 +57,7 @@
     height: 40px; 
     width: 120px;
     height: 120px;
-    
-   
+    margin-right: auto;
 }
 .home_nav {
     position: absolute;
