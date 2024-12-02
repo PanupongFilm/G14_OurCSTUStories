@@ -194,6 +194,12 @@ nav :first-child{
     gap: 20px; 
     width: 100%; 
 }
+#Greeting h4{
+    font-size: 3vw;
+}
+#Greeting p{
+    font-size: 2vw;
+}
 
 @media (max-width:400px){
     .row{
