@@ -12,7 +12,7 @@
 .home_header {
     width: 100vw;
     height: 100vh;
-    background-image: url("resource/Homepage/Test.jpg");
+    background-image: url("resource/Homepage/Background/Test.jpg");
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -359,7 +359,7 @@ nav :first-child{
 
     margin-top: 90px;
     border-radius:250px;
-    background-image: url("resource/Homepage/Container.jpg");
+    background-image: url("resource/Homepage/Background/Container.jpg");
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -627,7 +627,7 @@ section .from fieldset{
     background-color: #ffeefd;
     border-style: dashed; 
     color:#c44e8f;
-    background-image: url('resource/Homepage/BgForGuestBook.png');
+    background-image: url('resource/Homepage/Background/BgForGuestBook.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -791,7 +791,7 @@ section .from fieldset legend{
 
 .footer1 {
 
-    background-image: url("resource/Homepage/BACKGROUND.jpg");
+    background-image: url("resource/Homepage/Background/BACKGROUND.jpg");
     padding: 20px;
 }
 
