@@ -359,7 +359,7 @@ nav :first-child{
 
     margin-top: 90px;
     border-radius:250px;
-    background-color: #ffffff;
+    background-image: url("resource/Homepage/Container.jpg");
     display: flex;
     justify-content: center; 
     align-items: center; 
