@@ -251,13 +251,13 @@ nav :first-child{
 }
 @media(max-width:400px){
     #Member{
-        font-size:8vw;
+        font-size:9vw;
         
     }
 }
 @media(max-width:400px){
     #Guestbook{
-         font-size:10vw;
+         font-size:11vw;
             
      }    
 }
