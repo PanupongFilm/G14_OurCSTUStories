@@ -238,7 +238,7 @@ nav :first-child{
 }
 
 .Title {
-    margin-top: 165px;
+    margin-top:100px;
     text-align: center;
     font-size: 4vmin;
     color:#91449b;
@@ -408,6 +408,7 @@ section{
 }
 section .from{
     margin: 0;
+    margin-top:100px;
     padding: 0;
     border-radius: 20px;
     background-color:#de83b4;
