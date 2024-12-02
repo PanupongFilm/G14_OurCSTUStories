@@ -243,7 +243,24 @@ nav :first-child{
     font-size: 4vmin;
     color:#91449b;
 }
-
+#Member{
+    font-size: 3vw;
+}
+#Guestbook{
+    font-size: 4vw;
+}
+@media(max-width:400px){
+    #Member{
+        font-size:8vw;
+        
+    }
+}
+@media(max-width:400px){
+    #Guestbook{
+         font-size:10vw;
+            
+     }    
+}
 
 .Container {
 
