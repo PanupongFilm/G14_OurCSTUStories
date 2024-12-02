@@ -79,7 +79,7 @@
 }
 nav{
     background-image: url(/resource/Homepage/BACKGROUND.jpg);
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -87,7 +87,7 @@ nav{
     display: flex;
     justify-content: flex-end;
     padding: 20px;
-    color: rgb(248, 248, 250);
+    color: #f8f8fa;
     font-weight: bold;
     overflow-y: hidden;
     
@@ -123,6 +123,7 @@ nav a{
 
 nav a:hover{
     background-color: #f0f0f0;
+    color: #91449b;
 }
 
 nav :first-child{
@@ -145,6 +146,7 @@ nav :first-child{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    transition: right 0.5s ease;
 }
 
 .sidebar li{
@@ -161,6 +163,23 @@ nav :first-child{
     display: none;
     margin:0px
 }
+
+.menuBar::before{
+    content: '☰';
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .change::before{
+    content: '✖';
+  }
+  
+  .change:hover{
+        color: #91449b;
+    }
+
+
 @media screen and (max-width:800px){
     .hideOnMobile{
         display: none;
@@ -168,6 +187,10 @@ nav :first-child{
     .menu-button{
         display: block;
     }
+    .change{
+        display: inline;
+    }
+    
 }
 @media screen and (max-width:400px){
     .sidebar{
@@ -176,7 +199,9 @@ nav :first-child{
     .menu-button{
         display: block;
     }
-
+    .change{
+        display: inline;
+    }
 }
 /*=========================================================================================================*/
 .about-content{
