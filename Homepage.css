@@ -248,6 +248,43 @@ nav :first-child{
     font-size: 2vw;
 }
 
+@media (max-width:1700px){
+    .row{
+        flex-direction: column;
+    }
+    .row2{
+        flex-direction: column-reverse;
+    }
+    #Greeting h4{
+        font-size:5vh;
+    }
+    #Greeting p{
+        font-size:2.3vh;
+    }
+    .gif_img{
+        width:75%;
+    }
+}
+
+@media (max-width:800px){
+    .row{
+        flex-direction: column;
+    }
+    .row2{
+        flex-direction: column-reverse;
+    }
+    #Greeting h4{
+        font-size:20px;
+    }
+    #Greeting p{
+        font-size:16px;
+    }
+    .gif_img{
+        width:75%;
+    }
+}
+
+
 @media (max-width:480px){
     .row{
         flex-direction: column;
@@ -331,10 +368,30 @@ nav :first-child{
     overflow-y: hidden;
 }
 
+@media(max-width:1700px){
+    .Container{
+        height: 130vmin;
+        padding:0;
+        border-radius: 50px;
+    }
+
+   
+}
+
+
+@media(max-width:800px){
+    .Container{
+        height: 165vmin;
+        padding:0;
+        border-radius: 50px;
+    }
+}
+
 @media(max-width:480px){
     .Container{
         height: 200vmin;
         padding:0;
+        border-radius: 50px;
     }
 }
 
@@ -354,10 +411,12 @@ article img{
     object-fit: cover; 
 
 }
+
+
 @media (max-width:800px){
     .Member_img{
-        width: 30vw; 
-        height: 30vw;
+        width: 60vw; 
+        height: 60vw;
     }
 }
 @media (max-width:480px){
@@ -403,7 +462,7 @@ main{
 }
 @media (max-width:800px){
     .Container h1{
-        font-size: 2vmin;
+        font-size: 4vmin;
     }
     
 }
@@ -429,7 +488,7 @@ main{
 }
 @media (max-width:800px){
     .Container u{
-        font-size: 2vmin;
+        font-size: 3vmin;
     }
 }
 @media (max-width:480px){
@@ -456,8 +515,9 @@ main{
 }
 @media (max-width:800px){
     .card1{
-    width: 30vw;
-    height: 50vmin;
+        width: 70vmin;
+        height: 80vmin;
+        padding-top: 50px;
     }
 }
 @media (max-width:480px){
@@ -493,16 +553,16 @@ gap: 5px;
 @media (max-width:800px){
     .icon_img {
     
-        width: 5vmin; 
-        height: 5vmin;
+        width: 13vmin; 
+        height: 13vmin;
        
        
     }
     
     .icon_img2 {
         
-        width: 7vmin; 
-        height: 7vmin;
+        width: 18vmin; 
+        height: 18vmin;
      
        
     }
