@@ -317,7 +317,8 @@ nav :first-child{
 }
 @media(max-width:400px){
     .Container{
-        height: 150vh;
+        height: 250vmin;
+        padding:0;
     }
 }
 
@@ -336,6 +337,12 @@ article img{
     border-radius: 50%; 
     object-fit: cover; 
 
+}
+@media (max-width:400px){
+    .Member_img{
+        width: 70vmin; 
+        height: 70vmin;
+    }
 }
 
 
