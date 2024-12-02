@@ -225,7 +225,7 @@ nav :first-child{
 }
 @media(max-width:800px){
   #Hilights{
-       font-size:1.5vw;
+       font-size:5vw;
           
    }    
 }
@@ -359,6 +359,19 @@ blockquote {
   opacity: 0; 
   animation: slideInFromRight1 1s ease-out forwards; 
 }
+
+@media(max-width:800px){
+
+  .profile{
+    max-width:100%;
+    width:100%;
+  }
+  .profile1{
+    max-width:100%;
+    width:100%;
+  }
+  }
+
 @media(max-width:480px){
 .profile{
   max-width:100%;
