@@ -187,7 +187,34 @@ main{
 
 
 
-
+#Future h1{
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Future p{
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:800px){
+    #Future h1{
+        font-size:2.5vw;
+    }
+    #Future p{
+        font-size:16px;
+    }
+}
+@media (max-width:480px){
+    #Future h1{
+        font-size:7.5vw;
+    }
+    #Future p{
+        font-size:4vw;
+    }
+}
 
 
 

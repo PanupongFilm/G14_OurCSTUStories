@@ -263,7 +263,22 @@ ul{
   height: 500px; /* กำหนดความสูงเป็น 150 พิกเซล */
 
 }
-
+@media (max-width:800px) {
+  .cat img{
+  width:350px;
+  height: auto;
+  margin-top: -50px;
+  margin-bottom: 40px;
+}
+}
+@media (max-width:400px) {
+  .cat img{
+  width:200px;
+  height: auto;
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+}
 
 .footer1 {
   margin-top: -170px;

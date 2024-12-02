@@ -604,6 +604,7 @@ section .from fieldset legend{
     justify-content: center;
     align-items: center;
     width: 90%;
+    margin-bottom: 70px;
 }
 .RateUs{
     position: static; 
