@@ -268,3 +268,28 @@ ul{
   margin: 15px;
   color: rgb(255, 255, 255);
 }
+
+@media(max-width:800px){
+
+  .footer-content h4{
+      font-size: 3vw;
+  }
+  .footer-content ul li{
+      font-size: 2vw;
+  }
+}
+@media(max-width:400px){
+  .myfooter{
+      flex-direction: column;
+  }
+  .footer-content h4{
+      font-size: 6vw;
+  }
+  .footer-content ul li{
+      font-size: 5vw;
+  }
+}
+
+footer a:hover{
+  background-color: #816280;
+}
