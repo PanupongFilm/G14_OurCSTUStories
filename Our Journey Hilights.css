@@ -506,7 +506,13 @@ ul{
 @media(max-width:480px){
   .myfooter{
       flex-direction: column;
+      
   }
+
+  .footer-content{
+    padding: 20px;
+  }
+
   .footer-content h4{
       font-size: 6vw;
   }
