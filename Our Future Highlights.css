@@ -107,7 +107,6 @@ nav{
     display: flex;
     justify-content: flex-end;
     padding: 20px;
-    color: #f8f8fa;
     font-weight: bold;
     overflow-y: hidden;
     
@@ -138,12 +137,12 @@ nav a{
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(1, 165, 97);
 }
 
 nav a:hover{
     background-color: #f0f0f0;
-    color: #d0c85d;
+    color: #00f128;
 }
 
 nav :first-child{
@@ -278,7 +277,7 @@ main{
     gap: 40px;
     padding: 20px;
     align-items: center;
-    color: #965723;
+    color: #215a0b;
 }
 
 @media (max-width:800px){
@@ -309,7 +308,7 @@ main{
 .future_card {
     width: 100%;
     text-align: center;
-    background: rgba(238, 215, 140, 0.9);
+    background-image: url(resource/Future/Green.jpg);
     padding: 20px;
     border-radius: 75px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -402,10 +401,17 @@ main{
   
   }
 
+  @media (max-width:480px){
+    
+    .kid img{
+        margin-left: -120px;
+    }
+}
+
 
 .footer1 {
-    margin-top: -180px;
-    background-image: url(resource/Future/7175949.jpg);
+    margin-top: -120px;
+    background-image: url(resource/Future/Green.jpg);
     padding: 20px;
 }
 
