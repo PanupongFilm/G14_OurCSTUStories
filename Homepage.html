@@ -353,45 +353,96 @@
         </article>
 
         <!--===================================================================================================================================-->
-
+       
         <section>
-
-
-            <form>
+            <from>
                 <fieldset>
                     <legend>
                         <h2>Add your comment</h2>
                     </legend>
-                    <label>Username</label><br>
-                    <input type="text" maxlength="100" name="name" id="name" placeholder="Mysterious Fox" required><br>
-                    <br>
-                    <label>Email</label><br>
-                    <input type="email" maxlength="50" name="email" id="email" placeholder="kitsune@gmail.com"
-                        required><br>
-                    <br>
-                    <label>Rate us!</label><br>
-                    <div class="RateUs">
-                        <span onclick="rate(1)" class="rating" name="rating">❀
-                        </span>
-                        <span onclick="rate(2)" class="rating" name="rating">❀
-                        </span>
-                        <span onclick="rate(3)" class="rating" name="rating">❀
-                        </span>
-                        <span onclick="rate(4)" class="rating" name="rating">❀
-                        </span>
-                        <span onclick="rate(5)" class="rating" name="rating">❀
-                        </span>
-                    </div>
-                    <span class="emoji" id="emoji">(´⌯ω⌯`)</span>
-                    <br><br>
-                    <label>Comment</label><br>
-                    <textarea name="comment" id="comment" placeholder="Tell something about us!"></textarea><br>
-                    <br>
-                    <input type="submit" value="Summit" id="summit">
-                </fieldset>
-            </form>
+                    <!-- Form -->
+                    <form id="guest_Form">
+                      <!-- ข้อมูลส่วนตัว -->
+                      <section class="form_section">
+                
+                
+                          <!-- Username  -->
+                          <div class="Username">
+                              <label for="Username">Username
+                                  <span class="required"></span></label><br>
+                              <input type="text" id="Username" placeholder="Mysterious Fox" required>
+                          </div>
+                
+                          <!-- email -->
+                          <div class="email">
+                              <label for="email">Email
+                                  <span class="required"></span></label><br>
+                              <input type="text" id="email" placeholder="kitsune@gmail.com" required>
+                          </div><br>
+                
+                
+                         <!-- อาชีพ -->
+                
+                          <div class="role">
+                              <label for="role">อาชีพ
+                                  <span class="required"></span>
+                              </label>
+                              <select id="role" name="role" required>
+                                  <option value>-- เลือกอาชีพ --</option>
+                                  <option value="teacher">อาจารย์</option>
+                                  <option value="student">นักศึกษา</option>
+                                  <option value="other">อื่นๆ</option>
+                              </select>
+                          </div><br>
+                
+                
+                        <!-- Star 1-5 -->
+                
+                          <label>Rate us!
+                            <span class="required"></span>
+                          </label>
+                          <div class="RateUs">
+                              <label>
+                                  <input type="radio" name="star" value="1"> 1
+                              </label>
+                              <label>
+                                  <input type="radio" name="star" value="2"> 2
+                              </label>
+                              <label>
+                                  <input type="radio" name="star" value="3"> 3
+                              </label>
+                              <label>
+                                <input type="radio" name="star" value="4"> 4
+                              </label>
+                              <label>
+                                <input type="radio" name="star" value="5"> 5
+                              </label>
+                          </div><br>
+                          <br>
+                
+                
+                        <!-- ความคิดเห็น -->
+                
+                          <label for="comment">comment
+                            <span>*</span>
+                          </label><br>
+                          <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Tell something about us!"></textarea>
+                
+                
+                        <div class ="">
+                          <button class="summit" type="submit" value="Submit" onclick="handleSubmit()">Submit</button>
+                        </div>
+                
+                      </section>
+                    </form>
+                    <!-- Form  -->
+                
+            </from>
         </section>
-
+            <!-- Output  -->
+            <div class="output-data" id="output"></div>
+            <!-- Output -->
+            </fieldset>
 
     </main>
 

@@ -374,7 +374,7 @@ section form fieldset legend{
     border-style: solid;
     border-top: none;
 }
-#name{
+#Username{
     color: #de83b4;
     border-radius: 10px;
     border-color: #c44e8f;
@@ -385,7 +385,7 @@ section form fieldset legend{
     padding: 8px;
     box-sizing: border-box;
 }
-#name::placeholder{
+#Username::placeholder{
     color:#e2bfd2;
 }
 #email{
@@ -459,7 +459,7 @@ section form fieldset legend{
 #comment::placeholder{
     color:#e2bfd2;
 }
-#summit{
+.summit{
     background-color:#de83b4;
     border-style: hidden;
     border-radius: 10px;
@@ -467,16 +467,26 @@ section form fieldset legend{
     color: #ffeefd;
     font-size: 15px;
 }
-#summit:hover{
+.summit:hover{
     cursor: pointer;
 }
-#summit:focus{
+.summit:focus{
     background-color: #ffeefd;
     color: #de83b4;
     border-radius: 10px;
     border-style: solid;
     border-color: #de83b4;
 }
+
+.output-data {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+
+
 /*=========================================================================================================*/
 
 
