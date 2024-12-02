@@ -45,7 +45,29 @@
     padding-right: 16px;
     border-left: 10px solid #f68f78;
 }
+@media (max-width:800px){
+    .header-Topic2{
+        margin-left:60px;
+    }
+    .header-Topic2 h1 {
+        font-size: 12vmin;
+    }
+    .header-Topic2 h2 {
+        font-size: 3vmin;
+    }
+}
 
+@media (max-width:400px){
+    .header-Topic2{
+        margin-left:10px;
+    }
+    .header-Topic2 h1 {
+        font-size: 14vmin;
+    }
+    .header-Topic2 h2 {
+        font-size: 5vmin;
+    }
+}
 
 .logo-img {
     position: absolute;
@@ -56,19 +78,25 @@
     height: 180px;
 }
 nav{
-  
-    position: absolute;
+    background-image: url(/resource/Homepage/BACKGROUND.jpg);
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     font-size: 25px;;
     display: flex;
     justify-content: flex-end;
-    padding: 30px;
+    padding: 20px;
     color: rgb(248, 248, 250);
     font-weight: bold;
     overflow-y: hidden;
     
+}
+
+@media(max-width:400px){
+    nav{
+        padding: 15px;
+    }
 }
 
 nav ul{
@@ -165,6 +193,21 @@ nav :first-child{
     justify-content: space-between; 
     gap: 20px; 
     width: 100%; 
+}
+
+@media (max-width:400px){
+    .row{
+        flex-direction: column;
+    }
+    #Greeting h4{
+        font-size:20px;
+    }
+    #Greeting p{
+        font-size:16px;
+    }
+    .gif_img{
+        width:75%;
+    }
 }
 
 .col {
@@ -346,14 +389,14 @@ section{
     font-family: sans-serif;
     padding: 10%;
 }
-section form{
+section .from{
     margin: 0;
     padding: 0;
     border-radius: 20px;
     background-color:#de83b4;
     box-shadow: 0px 5px 5px rgb(218, 168, 192);
 }
-section form fieldset{
+section .from fieldset{
     padding: 5%;
     border-radius: 20px;
     border-color: rgb(212, 144, 227) #d16e9c rgb(139, 63, 146);
@@ -365,7 +408,7 @@ section form fieldset{
     background-position: center;
     background-repeat: no-repeat;
 }
-section form fieldset legend{
+section .from fieldset legend{
     background-color: #de83b4;
     padding: 10px;
     border-radius: 20px;
@@ -374,7 +417,7 @@ section form fieldset legend{
     border-style: solid;
     border-top: none;
 }
-#name{
+#Username{
     color: #de83b4;
     border-radius: 10px;
     border-color: #c44e8f;
@@ -385,7 +428,7 @@ section form fieldset legend{
     padding: 8px;
     box-sizing: border-box;
 }
-#name::placeholder{
+#Username::placeholder{
     color:#e2bfd2;
 }
 #email{
@@ -459,7 +502,7 @@ section form fieldset legend{
 #comment::placeholder{
     color:#e2bfd2;
 }
-#summit{
+.summit{
     background-color:#de83b4;
     border-style: hidden;
     border-radius: 10px;
@@ -467,16 +510,26 @@ section form fieldset legend{
     color: #ffeefd;
     font-size: 15px;
 }
-#summit:hover{
+.summit:hover{
     cursor: pointer;
 }
-#summit:focus{
+.summit:focus{
     background-color: #ffeefd;
     color: #de83b4;
     border-radius: 10px;
     border-style: solid;
     border-color: #de83b4;
 }
+
+.output-data {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+
+
 /*=========================================================================================================*/
 
 
