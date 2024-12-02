@@ -632,6 +632,11 @@ section .from fieldset legend{
     text-align: center;
     font-family: sans-serif;
 }
+@media(max-width:400px){
+    .footer-content{
+    margin-top: 10px;
+    }
+  }
 
 .footer-content h4 {
     margin-bottom: 20px;
