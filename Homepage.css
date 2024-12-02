@@ -86,11 +86,17 @@ nav{
     font-size: 25px;;
     display: flex;
     justify-content: flex-end;
-    padding: 30px;
+    padding: 20px;
     color: rgb(248, 248, 250);
     font-weight: bold;
     overflow-y: hidden;
     
+}
+
+@media(max-width:400px){
+    nav{
+        padding: 15px;
+    }
 }
 
 nav ul{
