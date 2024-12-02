@@ -16,7 +16,7 @@ html, body {
 .home_header {
     width: 100vw;
     height: 100vh;
-    background-image: url("resource/Future/Header.jpg");
+    background-image: url("resource/Future/b.jpg");
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -257,7 +257,7 @@ main{
 .future_main h1 {
     font-family: 'Georgia', serif;
     text-align: center;
-    color: #b68809;
+    color: #00b862;
 }
   
 .future_main p {
@@ -265,7 +265,7 @@ main{
     font-size: 16px;
     line-height: 1.5;
     margin: 0 20px;
-    color: #b68809;
+    color: #09b65f;
 }
 
 
@@ -276,31 +276,42 @@ main{
     gap: 20px;
     padding: 20px;
     align-items: center;
-    color: #965723;
+    color: #0a6451;
 }
 
 .future_container h2{
+    font-size: 5vh;
+    text-align: left;
+    line-height: 1.5;
+    margin: 13px 0;
+}
+
+.future_container p{
+    font-size: 2.2vh;
     text-align: left;
     line-height: 1.5;
     margin: 13px 0;
 }
   
 .future_card {
-
-    width: 90%;
+    background-image: url(resource/Future/7175949.jpg);
+    overflow-x: hidden;
+    width: 100%;
+    height: 40vh;
     text-align: center;
-    background: rgba(238, 215, 140, 0.9);
-    padding: 20px;
+    padding: 100px;
     border-radius: 100px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding-top: 38px;
+
 }
   
 .future_img {
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    margin-right: 20px; 
+    margin-right: 50px; 
     margin-bottom: 20px;
 }
 
@@ -336,28 +347,25 @@ main{
 }
 
 
+.kid img{
 
+    margin-top: -50px;
+    width: 400px; 
+    height: 400px; 
 
-
-
-
-
-
-
-
-
-
-
+  
+  }
 
 
 .footer1 {
-
-    background-color: #ebca72;
+    margin-top: -180px;
+    background-image: url(resource/Future/7175949.jpg);
     padding: 20px;
 }
 
 
 .myfooter {
+
     display: flex;
     justify-content: space-between;
 }
@@ -386,12 +394,12 @@ main{
 }
 
 .footerhead {
-    color: rgb(255, 255, 255);  
+    color: rgb(5, 90, 65);  
 }
 
 .footerlink {
     margin: 15px;
-    color: rgb(255, 255, 255);
+    color: rgb(5, 90, 65);
 }
 
 @media(max-width:800px){

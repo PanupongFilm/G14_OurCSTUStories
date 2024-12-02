@@ -428,8 +428,8 @@ ul{
 .cat img{
 
   margin-top: -100px;
-  width: 500px; /* กำหนดความกว้างเป็น 200 พิกเซล */
-  height: 500px; /* กำหนดความสูงเป็น 150 พิกเซล */
+  width: 500px; 
+  height: 500px; 
 
 }
 @media (max-width:800px) {
