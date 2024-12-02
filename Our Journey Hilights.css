@@ -54,6 +54,7 @@ html, body {
 @media (max-width:800px){
   .header-Topic2{
       margin-left:60px;
+      text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.7);
   }
   .header-Topic2 h1 {
       font-size: 12vmin;
@@ -73,6 +74,8 @@ html, body {
   .header-Topic2 h2 {
       font-size: 5vmin;
   }
+
+  
 }
 .logo-img {
   position: absolute;
@@ -101,6 +104,7 @@ nav{
   nav{
       padding: 15px;
   }
+
 }
 
 nav ul{
@@ -287,6 +291,8 @@ blockquote {
   margin-top: 10px;
   color: #0c80b6;
 }
+
+
 .infor img {
   width: 100px;
   height: 100px;
