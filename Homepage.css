@@ -552,6 +552,9 @@ section .from fieldset legend{
     align-items: center;
     width: 90%;
 }
+.RateUs{
+    position: static; 
+}
 
 
 
