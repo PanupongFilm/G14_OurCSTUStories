@@ -119,6 +119,7 @@ body {
 main{
     width: 85%;
     margin: 100px auto;
+    margin-top: 80px;
 }
 
 
@@ -194,7 +195,7 @@ main{
     align-items: center;
 }
 #Future p{
-    font-size: 3vw;
+    font-size: 2.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
