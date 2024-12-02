@@ -389,14 +389,14 @@ section{
     font-family: sans-serif;
     padding: 10%;
 }
-section form{
+section .from{
     margin: 0;
     padding: 0;
     border-radius: 20px;
     background-color:#de83b4;
     box-shadow: 0px 5px 5px rgb(218, 168, 192);
 }
-section form fieldset{
+section .from fieldset{
     padding: 5%;
     border-radius: 20px;
     border-color: rgb(212, 144, 227) #d16e9c rgb(139, 63, 146);
@@ -408,7 +408,7 @@ section form fieldset{
     background-position: center;
     background-repeat: no-repeat;
 }
-section form fieldset legend{
+section .from fieldset legend{
     background-color: #de83b4;
     padding: 10px;
     border-radius: 20px;
