@@ -107,7 +107,21 @@ html, body {
   margin: 34px 34px auto;
 }
 
-
+#Hilights{
+  font-size: 1.7vw;
+}
+@media(max-width:800px){
+  #Hilights{
+       font-size:1.5vw;
+          
+   }    
+}
+@media(max-width:400px){
+  #Hilights{
+       font-size:5vw;
+          
+   }    
+}
 
 
 .testimonial {
