@@ -195,6 +195,21 @@ nav :first-child{
     width: 100%; 
 }
 
+@media (max-width:400px){
+    .row{
+        flex-direction: column;
+    }
+    #Greeting h4{
+        font-size:20px;
+    }
+    #Greeting p{
+        font-size:16px;
+    }
+    .gif_img{
+        width:75%;
+    }
+}
+
 .col {
     flex-basis: 45%; 
     display: flex;
