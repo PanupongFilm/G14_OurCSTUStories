@@ -242,6 +242,12 @@ nav :first-child{
   gap: 20px;
 
 }
+@media (max-width:480px){
+  .testimonial{
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
 
 .profile img {
@@ -333,8 +339,16 @@ blockquote {
   opacity: 0; 
   animation: slideInFromRight1 1s ease-out forwards; 
 }
-
-
+@media(max-width:480px){
+.profile{
+  max-width:100%;
+  width:100%;
+}
+.profile1{
+  max-width:100%;
+  width:100%;
+}
+}
 
 .profile:nth-child(1) {
   animation-delay: 0s;
