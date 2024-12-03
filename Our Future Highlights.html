@@ -35,12 +35,22 @@
 
 
     <nav class="home_nav">
-
-        <img src="resource/Homepage/Logo.png" class="logo-img">
+        <ul id="Home" class="sidebar">
+            <li onclick = hideSidebar()><a href="#"><div class="change" onclick="toggleMenu()">
+                </div>
+                <!--<img src="/resource/Responsive/close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg">--></a></li>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Our Journey Hilights.html">Our Journey</a></li>
+            <li><a href="Our Future Highlights.html">Our Future</a></li>
+        </ul>
         <ul id="Home" class="mynav-links">
-            <li class="ctn"><a href="Homepage.html">Home</a></li>
-            <li class="ctn"><a href="Our Journey Hilights.html">Our Journey</a></li>
-            <li class="ctn"><a href="Our Future Highlights.html">Our Future</a></li>
+            <li class="logo-img"><a href="#"><img src="resource/Homepage/Logo.png" ></a></li>
+            <li class = "hideOnMobile"><a href="Homepage.html">Home</a></li>
+            <li class = "hideOnMobile"><a href="Our Journey Hilights.html">Our Journey</a></li>
+            <li class = "hideOnMobile"><a href="Our Future Highlights.html">Our Future</a></li>
+            <li class = "menu-button" onclick= showSidebar()><a href="#">
+                <!--<img src="/resource/Responsive/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg">-->
+                <div class="menuBar" onclick="toggleMenu()"></div></a></li>
         </ul>
     </nav>
 
@@ -148,5 +158,5 @@
 
     </footer>
 
-
+    <script src="Our Future Highlights.js"></script>
 </body>
