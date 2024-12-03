@@ -57,7 +57,7 @@
     }
 }
 
-@media (max-width:400px){
+@media (max-width:480px){
     .header-Topic2{
         margin-left:10px;
     }
@@ -93,7 +93,7 @@ nav{
     
 }
 
-@media(max-width:400px){
+@media(max-width:480px){
     nav{
         padding: 15px;
     }
@@ -192,7 +192,7 @@ nav :first-child{
     }
     
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:480px){
     .sidebar{
         width:100%;
     }
@@ -233,7 +233,7 @@ nav :first-child{
     font-size: 2vw;
 }
 
-@media (max-width:400px){
+@media (max-width:480px){
     .row{
         flex-direction: column;
     }
@@ -290,13 +290,13 @@ nav :first-child{
 #Guestbook{
     font-size: 4vw;
 }
-@media(max-width:400px){
+@media(max-width:480px){
     #Member{
         font-size:9vw;
         
     }
 }
-@media(max-width:400px){
+@media(max-width:480px){
     #Guestbook{
          font-size:11vw;
             
@@ -316,7 +316,7 @@ nav :first-child{
     overflow-y: hidden;
 }
 
-@media(max-width:400px){
+@media(max-width:480px){
     .Container{
         height: 200vmin;
         padding:0;
@@ -341,11 +341,11 @@ article img{
 }
 @media (max-width:800px){
     .Member_img{
-        width: 35vmin; 
-        height: 35vmin;
+        width: 30vw; 
+        height: 30vw;
     }
 }
-@media (max-width:400px){
+@media (max-width:480px){
     .Member_img{
         width: 50vmin; 
         height: 50vmin;
@@ -392,7 +392,7 @@ main{
     }
     
 }
-@media (max-width:400px){
+@media (max-width:480px){
     .Container h1{
         font-size: 5vmin;
     }
@@ -417,7 +417,7 @@ main{
         font-size: 2vmin;
     }
 }
-@media (max-width:400px){
+@media (max-width:480px){
     .Container u{
         font-size: 5vw;
     }
@@ -441,12 +441,11 @@ main{
 }
 @media (max-width:800px){
     .card1{
-    width: 35vmin;
+    width: 30vw;
     height: 50vmin;
-    padding-top: 50px;
     }
 }
-@media (max-width:400px){
+@media (max-width:480px){
     .card1{
     width: 70vmin;
     height: 120vmin;
@@ -458,8 +457,8 @@ main{
 margin: 30px;
 display: flex;
 justify-content: space-around;
-align-items: center
-
+align-items: center;
+gap: 5px;
 }
 
 .icon_img {
@@ -475,7 +474,41 @@ align-items: center
     width: 10vh; 
     height: 10vh;
  
-   
+}
+@media (max-width:800px){
+    .icon_img {
+    
+        width: 5vmin; 
+        height: 5vmin;
+       
+       
+    }
+    
+    .icon_img2 {
+        
+        width: 7vmin; 
+        height: 7vmin;
+     
+       
+    }
+}  
+
+@media (max-width:480px){
+    .icon_img {
+    
+        width: 7vh; 
+        height: 7vh;
+       
+       
+    }
+    
+    .icon_img2 {
+        
+        width: 10vh; 
+        height: 10vh;
+     
+       
+    }
 }
 
 .line1{
@@ -549,7 +582,7 @@ section .from fieldset legend{
         max-width: 75%;
     }
 }
-@media(max-width:400px){
+@media(max-width:480px){
     #Username{
         max-width: 100%;
     }
@@ -574,7 +607,7 @@ section .from fieldset legend{
         max-width: 75%;
     }
 }
-@media(max-width:400px){
+@media(max-width:480px){
     #email{
         max-width: 100%;
     }
@@ -699,7 +732,7 @@ section .from fieldset legend{
     text-align: center;
     font-family: sans-serif;
 }
-@media(max-width:400px){
+@media(max-width:480px){
     .footer-content{
     margin-top: 10px;
     }
@@ -735,7 +768,7 @@ section .from fieldset legend{
         font-size: 2vw;
     }
 }
-@media(max-width:400px){
+@media(max-width:480px){
     .myfooter{
         flex-direction: column;
     }
