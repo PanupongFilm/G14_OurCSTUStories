@@ -238,6 +238,7 @@ main{
     width: 85%;
     margin: 100px auto;
     margin-top: 80px;
+    margin-bottom: 45px;
 }
 
 
@@ -273,10 +274,22 @@ main{
     
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 40px;
     padding: 20px;
     align-items: center;
     color: #965723;
+}
+
+@media (max-width:800px){
+    .future_container{
+        gap: 40px;
+    }
+}
+@media (max-width:480px){
+    .future_container{
+        gap: 20px;
+    }
 }
 
 .future_container h2{
@@ -286,13 +299,37 @@ main{
 }
   
 .future_card {
-
-    width: 90%;
+    width: 100%;
     text-align: center;
     background: rgba(238, 215, 140, 0.9);
     padding: 20px;
-    border-radius: 100px;
+    border-radius: 75px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 60px;
+}
+@media (max-width:1700px){
+    .future_card h2{
+        font-size: 2.5vw;
+    }
+    .future_card p{
+        font-size: 1.5vw;
+    }
+}
+@media (max-width:800px){
+    .future_card h2{
+        font-size: 3.5vw;
+    }
+    .future_card p{
+        font-size: 2.5vw;
+    }
+}
+@media (max-width:480px){
+    .future_card h2{
+        font-size: 5vw;
+    }
+    .future_card p{
+        font-size: 4vw;
+    }
 }
   
 .future_img {
@@ -303,17 +340,29 @@ main{
     margin-right: 20px; 
     margin-bottom: 20px;
 }
+@media (max-width:800px){
+    .future_img{
+        width: 20vmin;
+        height: 20vmin;
+    }
+}
+@media (max-width:480px){
+    .future_img{
+        width: 15vmin;
+        height: 15vmin;
+    }
+}
 
 
 
 #Future h1{
-    font-size: 3vw;
+    font-size: 2vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #Future p{
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
