@@ -290,6 +290,20 @@ blockquote {
 .infor img {
   width: 100px;
   height: 100px;
+  clip-path: circle(50%);
+  overflow-x: visible;
+}
+@media(max-width:800px){
+  .infor img {
+    width: 15vmin;
+    height: 15vmin;
+  }
+}
+@media(max-width:400px){
+  .infor img {
+    width: 20vmin;
+    height: 20vmin;
+  }
 }
 
 
