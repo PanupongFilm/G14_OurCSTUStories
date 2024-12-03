@@ -215,14 +215,14 @@ nav :first-child{
 .row {
     display: flex;
     align-items: center; 
-    justify-content: space-between; 
+    justify-content:center; 
     gap: 20px; 
     width: 100%; 
 }
 .row2 {
     display: flex;
     align-items: center; 
-    justify-content: space-between; 
+    justify-content: center; 
     gap: 20px; 
     width: 100%; 
 }
@@ -396,8 +396,8 @@ main{
 
 .card1 {
 
-    width: 500px;
-    height: 430px;
+    width: 50vmin;
+    height: 50vmin;
     border: px solid #ccc;
     border-radius: 100px;
     margin: 10px;
@@ -408,6 +408,13 @@ main{
     background-color: #fafafa;
     box-shadow: 10px 7px 6px rgba(0, 0, 0, 0.1);
 
+}
+@media (max-width:400px){
+    .card1{
+    width: 70vmin;
+    height: 110vmin;
+    padding-top: 50px;
+    }
 }
 
 .myicon{
