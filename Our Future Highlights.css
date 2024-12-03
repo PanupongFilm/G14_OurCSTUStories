@@ -60,7 +60,7 @@ html, body {
     }
 }
 
-@media (max-width:400px){
+@media (max-width:480px){
     .header-Topic2{
         margin-left:10px;
     }
@@ -250,7 +250,7 @@ main{
     text-align: center;
     font-family: sans-serif;
 }
-@media(max-width:400px){
+@media(max-width:480px){
     .footer-content{
     margin-top: 10px;
     }
@@ -285,7 +285,7 @@ main{
         font-size: 2vw;
     }
 }
-@media(max-width:400px){
+@media(max-width:480px){
     .myfooter{
         flex-direction: column;
     }

@@ -70,7 +70,7 @@ html, body {
   }
 }
 
-@media (max-width:400px){
+@media (max-width:480px){
   .header-Topic2{
       margin-left:10px;
   }
@@ -116,7 +116,7 @@ html, body {
           
    }    
 }
-@media(max-width:400px){
+@media(max-width:480px){
   #Hilights{
        font-size:5vw;
           
@@ -271,7 +271,7 @@ ul{
   margin-bottom: 40px;
 }
 }
-@media (max-width:400px) {
+@media (max-width:480px) {
   .cat img{
   width:200px;
   height: auto;
@@ -299,7 +299,7 @@ ul{
   text-align: center;
   font-family: sans-serif;
 }
-@media(max-width:400px){
+@media(max-width:480px){
   .footer-content{
   margin-top: 10px;
   }
@@ -334,7 +334,7 @@ ul{
       font-size: 2vw;
   }
 }
-@media(max-width:400px){
+@media(max-width:480px){
   .myfooter{
       flex-direction: column;
   }
