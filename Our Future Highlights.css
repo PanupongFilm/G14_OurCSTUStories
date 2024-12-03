@@ -123,10 +123,7 @@ nav a{
     color: white;
 }
 
-nav a:hover{
-    background-color: #f0f0f0;
-    color: #d0c85d;
-}
+
 
 nav :first-child{
     margin-right: auto;
@@ -192,6 +189,10 @@ nav :first-child{
     .change{
         display: inline;
     }
+    nav a:hover{
+        background-color: #f0f0f0;
+        color: #d0c85d;
+    }
     
 }
 @media screen and (max-width:480px){
@@ -203,6 +204,10 @@ nav :first-child{
     }
     .change{
         display: inline;
+    }
+    nav a:hover{
+        background-color: #f0f0f0;
+        color: #d0c85d;
     }
 }
 /*=========================================================================================================*/

@@ -136,7 +136,7 @@
                         <div class="col">
 
 
-                            <img src="resource/Homepage/Natnicha_Juallpoe_Tuanote.jpg" alt="Natnicha Jullapoe" title="Tuanote ヾ(⌐■_■)ノ♪" class="Member_img">
+                            <img src="resource/Homepage/pictureOfMyself.jpg" alt="Natnicha Jullapoe" title="Tuanote ヾ(⌐■_■)ノ♪" class="Member_img">
 
                         </div>
 
@@ -332,8 +332,8 @@
 
                                     <div class="myicon">
 
-                                        <a href=""><img src="resource/Homepage/ig.png" alt="Panupong Suthikasem"
-                                                title="Click me😈" class="icon_img"></a>
+                                        <a href="https://www.instagram.com/panupong_stks/"><img src="resource/Homepage/ig.png" alt="Panupong Suthikasem"
+                                                title="panupong_stks" class="icon_img"></a>
                                         <a href="https://www.facebook.com/panupong.suttikasem"><img
                                                 src="resource/Homepage/fb.png" alt="Panupong Suttikasem"
                                                 class="icon_img2" title="Panupong Suttikasem"></a>
@@ -389,14 +389,14 @@
                          <!-- อาชีพ -->
                 
                           <div class="role">
-                              <label for="role">อาชีพ
+                              <label for="role">Occupation
                                   <span class="required"></span>
                               </label>
                               <select id="role" name="role" required>
-                                  <option value>-- เลือกอาชีพ --</option>
-                                  <option value="teacher">อาจารย์</option>
-                                  <option value="student">นักศึกษา</option>
-                                  <option value="other">อื่นๆ</option>
+                                  <option value>-- Choose --</option>
+                                  <option value="teacher">Teacher</option>
+                                  <option value="student">Student</option>
+                                  <option value="other">Other</option>
                               </select>
                           </div><br>
                 
@@ -405,24 +405,26 @@
                 
                           <label>Rate us!
                             <span class="required"></span>
-                          </label>
+                          </label><br>
                           <div class="RateUs">
-                              <label>
-                                  <input type="radio" name="star" value="1"> 1
+                              <label onclick="rate(1)"class="rating" name="rating" data-value="1">
+                                <input type="radio" name="star" value="1">❀
                               </label>
-                              <label>
-                                  <input type="radio" name="star" value="2"> 2
+                              <label onclick="rate(2)"class="rating" name="rating" data-value="2">
+                                <input type="radio" name="star" value="2">❀
                               </label>
-                              <label>
-                                  <input type="radio" name="star" value="3"> 3
+                              <label onclick="rate(3)"class="rating" name="rating" data-value="3">
+                                <input type="radio" name="star" value="3">❀
                               </label>
-                              <label>
-                                <input type="radio" name="star" value="4"> 4
+                              <label onclick="rate(4)"class="rating" name="rating" data-value="4">
+                                <input type="radio" name="star" value="4">❀
                               </label>
-                              <label>
-                                <input type="radio" name="star" value="5"> 5
+                              <label onclick="rate(5)"class="rating" name="rating" data-value="5">
+                                <input type="radio" name="star" value="5">❀
                               </label>
-                          </div><br>
+                              
+                          </div><span class="emoji" id="emoji">(´⌯ω⌯`)</span>
+                          <br>
                           <br>
                 
                 

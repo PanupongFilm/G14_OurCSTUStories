@@ -1,3 +1,8 @@
+html{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +24,7 @@
     align-items: center;
     justify-content: space-between; 
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .header-Topic2 {
@@ -120,10 +126,7 @@ nav a{
     color: white;
 }
 
-nav a:hover{
-    background-color: #f0f0f0;
-    color: #91449b;
-}
+
 
 nav :first-child{
     margin-right: auto;
@@ -189,6 +192,10 @@ nav :first-child{
     .change{
         display: inline;
     }
+    nav a:hover{
+        background-color: #f0f0f0;
+        color: #91449b;
+    }
     
 }
 @media screen and (max-width:480px){
@@ -201,6 +208,11 @@ nav :first-child{
     .change{
         display: inline;
     }
+    nav a:hover{
+        background-color: #f0f0f0;
+        color: #91449b;
+    }
+    
 }
 /*=========================================================================================================*/
 .about-content{
@@ -256,11 +268,12 @@ nav :first-child{
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    text-align: center; 
+    text-align: center;
+    overflow-x: hidden;
 }
 
 .row .col {
-
+    overflow-x: hidden;
     flex-basis: 45%;
     display: flex;
     flex-direction: column;
@@ -268,6 +281,14 @@ nav :first-child{
     text-align: center;
 
 
+}
+
+#first, #second, #third, #fourth, #fifth, #sixth{
+    overflow-y: hidden;
+}
+
+.Container img{
+    object-fit: cover;
 }
 
 .gif_img{
@@ -292,7 +313,6 @@ nav :first-child{
 @media(max-width:480px){
     #Member{
         font-size:9vw;
-        
     }
 }
 @media(max-width:480px){
@@ -424,7 +444,7 @@ main{
 
 
 .card1 {
-
+    overflow:hidden;
     width: 50vmin;
     height: 50vmin;
     border: px solid #ccc;
@@ -436,12 +456,17 @@ main{
     text-align: center;
     background-color: #fafafa;
     box-shadow: 10px 7px 6px rgba(0, 0, 0, 0.1);
-
+    
 }
 @media (max-width:800px){
     .card1{
     width: 30vw;
     height: 50vmin;
+    overflow: hidden;
+    }
+    html{
+        -ms-overflow-style: none;
+        scrollbar-width: none;
     }
 }
 @media (max-width:480px){
@@ -449,6 +474,12 @@ main{
     width: 70vmin;
     height: 120vmin;
     padding-top: 50px;
+    overflow: hidden;
+    
+    }
+    html{
+        -ms-overflow-style: none;
+        scrollbar-width: none;
     }
 }
 
@@ -528,6 +559,7 @@ legend{
 
 article{
     font-family: sans-serif;
+
     
 }
 section{
@@ -605,11 +637,18 @@ section .from fieldset legend{
     #email{
         max-width: 75%;
     }
+    .guest-entry{
+    background-size: cover;
+}
 }
 @media(max-width:480px){
     #email{
         max-width: 100%;
     }
+    
+.guest-entry{
+    background-size: cover;
+}
 }
     
 #email::placeholder{
@@ -627,12 +666,26 @@ section .from fieldset legend{
     color: #c44e8f;
 }
 .rating:hover{
-    transform: scale(1.2);
+    transform: scale(1.2);    
 }
 .rating::after, .rating:hover ~ .rating{
    content: ❀;
     color: #ccc; 
 }
+
+.RateUs input[type="radio"]{
+    display: none;
+}
+
+.RateUs label:hover, .RateUs label:hover ~ label {
+    color: #c44e8f;
+    transform: scale(1.2);
+}
+
+.RateUs input[type="radio"]:checked ∼ label{
+    color: #c44e8f;
+}
+
 /*for js: Rate us!*/
 .one {
     color: #c44e8f;
@@ -656,6 +709,34 @@ section .from fieldset legend{
 
 #emoji{
     padding: 5px;
+}
+
+.guest-entry{
+    color: #c44e8f;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #de83b4;
+    border-style: dotted;
+    border-top: 10px solid #de83b4;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px 0px rgb(218, 168, 192);
+    background-image: url('resource/Homepage/catforGuestEntry.png');
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#role{
+    color: #de83b4;
+    border-radius: 10px;
+    border-color: #c44e8f;
+    border-style: hidden;
+    padding: 5px;
+    width: 100%;
+    max-width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
 }
 
 #comment{

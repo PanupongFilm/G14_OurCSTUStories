@@ -7,7 +7,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  overflow-x: hidden;
+  
   text-decoration: none;
   font-family: sans-serif;
 
@@ -78,9 +78,10 @@ html, body {
   position: absolute;
   left: 30px; 
   top: 50%;
-  transform: translateY(-50%); 
-  width: 180px;
-  height: 180px;
+  float: left; 
+  width: 10px;
+  height: 10px;
+  overflow:hidden;
 }
 nav{
   position: absolute;
@@ -125,10 +126,7 @@ nav a{
   color: white;
 }
 
-nav a:hover{
-  background-color: #f0f0f0;
-  color: #2097ec;
-}
+
 
 nav :first-child{
   margin-right: auto;
@@ -179,7 +177,7 @@ nav :first-child{
 }
 
 .change:hover{
-      color: #3972da;
+      color: #2097ec;
   }
 
 
@@ -193,6 +191,7 @@ nav :first-child{
   .change{
       display: inline;
   }
+ 
   
 }
 @media screen and (max-width:480px){
@@ -205,10 +204,13 @@ nav :first-child{
   .change{
       display: inline;
   }
+  
+
 }
 /*=========================================================================================================*/
 
 .journey_img {
+  object-fit: cover;
   float: left;
   width: 100px;
   height: 100px;
@@ -223,14 +225,23 @@ nav :first-child{
   #Hilights{
        font-size:1.5vw;
           
-   }    
+   }
+   .profile1{
+    margin-left: 10%;
+    margin-right: 10%;
+   } 
 }
 @media(max-width:480px){
   #Hilights{
        font-size:5vw;
           
-   }    
-}
+   }
+   .profile1{
+    margin-left: 10%;
+    margin-right: 10%;
+   }
+   
+  }
 
 
 .testimonial {
@@ -238,7 +249,6 @@ nav :first-child{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
   gap: 20px;
 
 }
@@ -269,6 +279,8 @@ p{
 blockquote {
   font-style: italic;
   color: #ffffff;
+  width: 460px;
+  border-style: hidden;
 }
 
 .infor {
