@@ -17,7 +17,7 @@ html{
 .home_header {
     width: 100vw;
     height: 100vh;
-    background-image: url("resource/Homepage/Test.jpg");
+    background-image: url("resource/Homepage/Background/Test.jpg");
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -51,29 +51,45 @@ html{
     padding-right: 16px;
     border-left: 10px solid #f68f78;
 }
-@media (max-width:800px){
+
+@media (max-width:1700px){
     .header-Topic2{
-        margin-left:60px;
+      margin-left:60px;
+      text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.7);
+  }
+  .header-Topic2 h1 {
+      font-size: 12vmin;
+  }
+  .header-Topic2 h2 {
+      font-size: 7vmin;
+  }
+  }
+  
+  @media (max-width:800px){
+    .header-Topic2{
+        margin-left:0px;
+        text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.7);
+    }
+    .header-Topic2 h1 {
+        font-size: 13.2vmin;
+    }
+    .header-Topic2 h2 {
+        font-size: 8vmin;
+    }
+  }
+  
+  @media (max-width:480px){
+    .header-Topic2{
+        margin-left:10px;
     }
     .header-Topic2 h1 {
         font-size: 12vmin;
     }
     .header-Topic2 h2 {
-        font-size: 3vmin;
-    }
-}
-
-@media (max-width:480px){
-    .header-Topic2{
-        margin-left:10px;
-    }
-    .header-Topic2 h1 {
-        font-size: 14vmin;
-    }
-    .header-Topic2 h2 {
         font-size: 5vmin;
     }
-}
+  
+  }
 
 .logo-img {
     position: absolute;
@@ -191,12 +207,7 @@ nav :first-child{
     }
     .change{
         display: inline;
-    }
-    nav a:hover{
-        background-color: #f0f0f0;
-        color: #91449b;
-    }
-    
+    }    
 }
 @media screen and (max-width:480px){
     .sidebar{
@@ -207,12 +218,7 @@ nav :first-child{
     }
     .change{
         display: inline;
-    }
-    nav a:hover{
-        background-color: #f0f0f0;
-        color: #91449b;
-    }
-    
+    }    
 }
 /*=========================================================================================================*/
 .about-content{
@@ -243,6 +249,43 @@ nav :first-child{
 #Greeting p{
     font-size: 2vw;
 }
+
+@media (max-width:1700px){
+    .row{
+        flex-direction: column;
+    }
+    .row2{
+        flex-direction: column-reverse;
+    }
+    #Greeting h4{
+        font-size:5vh;
+    }
+    #Greeting p{
+        font-size:2.3vh;
+    }
+    .gif_img{
+        width:75%;
+    }
+}
+
+@media (max-width:800px){
+    .row{
+        flex-direction: column;
+    }
+    .row2{
+        flex-direction: column-reverse;
+    }
+    #Greeting h4{
+        font-size:20px;
+    }
+    #Greeting p{
+        font-size:16px;
+    }
+    .gif_img{
+        width:75%;
+    }
+}
+
 
 @media (max-width:480px){
     .row{
@@ -326,7 +369,7 @@ nav :first-child{
 
     margin-top: 90px;
     border-radius:250px;
-    background-color: #ffffff;
+    background-image: url("resource/Homepage/Background/Container.jpg");
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -335,10 +378,30 @@ nav :first-child{
     overflow-y: hidden;
 }
 
+@media(max-width:1700px){
+    .Container{
+        height: 130vmin;
+        padding:0;
+        border-radius: 50px;
+    }
+
+   
+}
+
+
+@media(max-width:800px){
+    .Container{
+        height: 165vmin;
+        padding:0;
+        border-radius: 50px;
+    }
+}
+
 @media(max-width:480px){
     .Container{
         height: 200vmin;
         padding:0;
+        border-radius: 50px;
     }
 }
 
@@ -358,10 +421,12 @@ article img{
     object-fit: cover; 
 
 }
+
+
 @media (max-width:800px){
     .Member_img{
-        width: 30vw; 
-        height: 30vw;
+        width: 60vw; 
+        height: 60vw;
     }
 }
 @media (max-width:480px){
@@ -407,7 +472,7 @@ main{
 }
 @media (max-width:800px){
     .Container h1{
-        font-size: 2vmin;
+        font-size: 4vmin;
     }
     
 }
@@ -433,7 +498,7 @@ main{
 }
 @media (max-width:800px){
     .Container u{
-        font-size: 2vmin;
+        font-size: 3vmin;
     }
 }
 @media (max-width:480px){
@@ -460,13 +525,9 @@ main{
 }
 @media (max-width:800px){
     .card1{
-    width: 30vw;
-    height: 50vmin;
-    overflow: hidden;
-    }
-    html{
-        -ms-overflow-style: none;
-        scrollbar-width: none;
+        width: 70vmin;
+        height: 80vmin;
+        padding-top: 50px;
     }
 }
 @media (max-width:480px){
@@ -508,16 +569,16 @@ gap: 5px;
 @media (max-width:800px){
     .icon_img {
     
-        width: 5vmin; 
-        height: 5vmin;
+        width: 13vmin; 
+        height: 13vmin;
        
        
     }
     
     .icon_img2 {
         
-        width: 7vmin; 
-        height: 7vmin;
+        width: 18vmin; 
+        height: 18vmin;
      
        
     }
@@ -583,7 +644,7 @@ section .from fieldset{
     background-color: #ffeefd;
     border-style: dashed; 
     color:#c44e8f;
-    background-image: url('resource/Homepage/BgForGuestBook.png');
+    background-image: url('resource/Homepage/Background/BgForGuestBook.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -796,7 +857,7 @@ section .from fieldset legend{
 
 .footer1 {
 
-    background-image: url("resource/Homepage/BACKGROUND.jpg");
+    background-image: url("resource/Homepage/Background/BACKGROUND.jpg");
     padding: 20px;
 }
 
@@ -852,6 +913,11 @@ section .from fieldset legend{
     .myfooter{
         flex-direction: column;
     }
+
+    .footer-content{
+        padding: 20px;
+      }
+
     .footer-content h4{
         font-size: 6vw;
     }
