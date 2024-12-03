@@ -315,9 +315,10 @@ nav :first-child{
     padding: 20px;
     overflow-y: hidden;
 }
+
 @media(max-width:400px){
     .Container{
-        height: 250vmin;
+        height: 200vmin;
         padding:0;
     }
 }
@@ -338,12 +339,19 @@ article img{
     object-fit: cover; 
 
 }
-@media (max-width:400px){
+@media (max-width:800px){
     .Member_img{
-        width: 70vmin; 
-        height: 70vmin;
+        width: 35vmin; 
+        height: 35vmin;
     }
 }
+@media (max-width:400px){
+    .Member_img{
+        width: 50vmin; 
+        height: 50vmin;
+    }
+}
+
 
 
 .about-content h4 {
@@ -378,6 +386,12 @@ main{
     margin: 6px auto;
     font-family: sans-serif;
 }
+@media (max-width:800px){
+    .Container h1{
+        font-size: 2vmin;
+    }
+    
+}
 @media (max-width:400px){
     .Container h1{
         font-size: 5vmin;
@@ -398,9 +412,14 @@ main{
     line-height: 1.5;
 
 }
-@media (max-width:400px){
+@media (max-width:800px){
     .Container u{
         font-size: 2vmin;
+    }
+}
+@media (max-width:400px){
+    .Container u{
+        font-size: 5vw;
     }
 }
 
@@ -419,6 +438,13 @@ main{
     background-color: #fafafa;
     box-shadow: 10px 7px 6px rgba(0, 0, 0, 0.1);
 
+}
+@media (max-width:800px){
+    .card1{
+    width: 35vmin;
+    height: 50vmin;
+    padding-top: 50px;
+    }
 }
 @media (max-width:400px){
     .card1{
