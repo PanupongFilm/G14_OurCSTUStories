@@ -373,14 +373,20 @@ main{
 }
 
 .Container h1{
-    font-size: 3.65vmin;
+    font-size: 3vmin;
     color: #91449b;
     margin: 6px auto;
     font-family: sans-serif;
 }
+@media (max-width:400px){
+    .Container h1{
+        font-size: 5vmin;
+    }
+    
+}
 
 
-.Container p{
+.Container u{
 
     color: #816280;
     padding: 5px 5px;
@@ -391,6 +397,11 @@ main{
     margin-top: 10px;
     line-height: 1.5;
 
+}
+@media (max-width:400px){
+    .Container u{
+        font-size: 2vmin;
+    }
 }
 
 
@@ -412,7 +423,7 @@ main{
 @media (max-width:400px){
     .card1{
     width: 70vmin;
-    height: 110vmin;
+    height: 120vmin;
     padding-top: 50px;
     }
 }
