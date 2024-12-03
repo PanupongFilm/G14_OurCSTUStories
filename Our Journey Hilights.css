@@ -7,21 +7,13 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  overflow-x: hidden;
   text-decoration: none;
   font-family: sans-serif;
 
  
 }
 
-.logo-img {
-    position: absolute;
-    left: 30px; 
-    top: 50%;
-    transform: translateY(-50%); 
-    width: 120px;
-    height: 120px;
-   
-}
 
 .home_header {
   width: 100vw;
@@ -58,6 +50,7 @@ html, body {
   padding-right: 16px;
   border-left: 10px solid #78c4f6;
 }
+
 @media (max-width:800px){
   .header-Topic2{
       margin-left:60px;
@@ -81,31 +74,139 @@ html, body {
       font-size: 5vmin;
   }
 }
-.home_nav {
+.logo-img {
+  position: absolute;
+  left: 30px; 
+  top: 50%;
+  transform: translateY(-50%); 
+  width: 180px;
+  height: 180px;
+}
+nav{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  font-size: 2.6vh;
+  font-size: 25px;;
   display: flex;
   justify-content: flex-end;
-  padding: 30px;
-  color: rgb(248, 248, 250);
+  padding: 20px;
+  color: #f8f8fa;
   font-weight: bold;
   overflow-y: hidden;
+  
 }
 
-.mynav-links {
-  display: flex;
-  margin-right: 30px; 
+@media(max-width:480px){
+  nav{
+      padding: 15px;
+  }
 }
 
-.mynav-links a {
+nav ul{
+  width: 100%;
+  list-style: none;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li{
+  height: 50px;
+  margin-right: 30px;
+}
+
+nav a{
+  height: 100%;
+  padding: 0 30px;
   text-decoration: none;
-  color: rgb(255, 255, 255);
-  align-items: flex-end;
-  margin: 34px 34px auto;
+  display: flex;
+  align-items: center;
+  color: white;
 }
+
+nav a:hover{
+  background-color: #f0f0f0;
+  color: #2097ec;
+}
+
+nav :first-child{
+  margin-right: auto;
+}
+/*=========================================================================================================*/
+/*sidebar*/
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width:250px;
+  z-index:999;
+  background-color:#5397d746;
+  backdrop-filter: blur(10px) ;
+  box-shadow: -10px 0px 10px rgba(0,0,0,0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transition: right 0.5s ease;
+}
+
+.sidebar li{
+  width:100%;
+}
+
+.sidebar a{
+  width:100%;
+
+
+}
+
+.menu-button{
+  display: none;
+  margin:0px
+}
+
+.menuBar::before{
+  content: '☰';
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+.change::before{
+  content: '✖';
+}
+
+.change:hover{
+      color: #3972da;
+  }
+
+
+@media screen and (max-width:800px){
+  .hideOnMobile{
+      display: none;
+  }
+  .menu-button{
+      display: block;
+  }
+  .change{
+      display: inline;
+  }
+  
+}
+@media screen and (max-width:480px){
+  .sidebar{
+      width:100%;
+  }
+  .menu-button{
+      display: block;
+  }
+  .change{
+      display: inline;
+  }
+}
+/*=========================================================================================================*/
 
 #Hilights{
   font-size: 1.7vw;
@@ -347,5 +448,5 @@ ul{
 }
 
 footer a:hover{
-  background-color: #816280;
+  background-color: #6ca6f8;
 }
