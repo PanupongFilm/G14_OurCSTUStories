@@ -782,7 +782,7 @@ section .from fieldset legend{
     border-top: 10px solid #de83b4;
     margin-bottom: 20px;
     box-shadow: 0px 5px 5px 0px rgb(218, 168, 192);
-    background-image: url('resource/Homepage/catforGuestEntry.png');
+    background-image: url('resource/Homepage/Background/catforGuestEntry.png');
     object-fit: cover;
     background-position: center;
     background-repeat: no-repeat;
