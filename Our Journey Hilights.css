@@ -51,16 +51,29 @@ html, body {
   border-left: 10px solid #78c4f6;
 }
 
+@media (max-width:1700px){
+  .header-Topic2{
+    margin-left:60px;
+    text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.7);
+}
+.header-Topic2 h1 {
+    font-size: 12vmin;
+}
+.header-Topic2 h2 {
+    font-size: 7vmin;
+}
+}
+
 @media (max-width:800px){
   .header-Topic2{
-      margin-left:60px;
+      margin-left:0px;
       text-shadow: 2px 4px 0px rgba(0, 0, 0, 0.7);
   }
   .header-Topic2 h1 {
-      font-size: 12vmin;
+      font-size: 13.2vmin;
   }
   .header-Topic2 h2 {
-      font-size: 3vmin;
+      font-size: 8vmin;
   }
 }
 
@@ -75,8 +88,8 @@ html, body {
       font-size: 5vmin;
   }
 
-  
 }
+
 .logo-img {
   position: absolute;
   left: 30px; 
@@ -225,7 +238,7 @@ nav :first-child{
 }
 @media(max-width:800px){
   #Hilights{
-       font-size:1.5vw;
+       font-size:5vw;
           
    }    
 }
@@ -359,6 +372,19 @@ blockquote {
   opacity: 0; 
   animation: slideInFromRight1 1s ease-out forwards; 
 }
+
+@media(max-width:800px){
+
+  .profile{
+    max-width:100%;
+    width:100%;
+  }
+  .profile1{
+    max-width:100%;
+    width:100%;
+  }
+  }
+
 @media(max-width:480px){
 .profile{
   max-width:100%;
@@ -480,7 +506,13 @@ ul{
 @media(max-width:480px){
   .myfooter{
       flex-direction: column;
+      
   }
+
+  .footer-content{
+    padding: 20px;
+  }
+
   .footer-content h4{
       font-size: 6vw;
   }
