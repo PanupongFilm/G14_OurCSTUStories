@@ -243,6 +243,10 @@ nav :first-child{
        font-size:5vw;
           
    }
+   .profile{
+    margin-left: 10%;
+    margin-right: 10%;
+   } 
    .profile1{
     margin-left: 10%;
     margin-right: 10%;
@@ -253,12 +257,15 @@ nav :first-child{
        font-size:5vw;
           
    }
-   .profile1{
-    margin-left: 10%;
-    margin-right: 10%;
+   .profile{
+    margin: 0;
    }
+   .profile1{
+    margin: 0;
+   } 
    
   }
+  
 
 
 .testimonial {
